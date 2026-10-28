@@ -1,0 +1,32 @@
+[
+    {
+        "url":"https://demoqa.com/automation-practice-form",
+        "name":"john",
+        "lastname":"sharma",
+        "email":"john@gmail.com",
+        "gender":"Male",
+        "mob":"9988776655",
+        "year":"2000",
+        "month":"June",
+        "subject":"A",
+        "hobbies":["Sports","Music"],
+        "picturepath":"C:/Users/USER/Desktop/shopsy project explanation.docx",
+        "address":"maharashtra",
+        "state":"NCR",
+        "city":"Delhi"
+    },
+    {"url":"https://demoqa.com/automation-practice-form",
+        "name":"Swathi",
+        "lastname":"sahu",
+        "email":"swathi@gmail.com",
+        "gender":"Female",
+        "mob":"8877665599",
+        "year":"1996",
+        "month":"June",
+        "subject":"B",
+        "hobbies":["Reading","Music"],
+        "picturepath":"C:/Users/USER/Downloads/Lavanya_3.2YOE_Manual_Api_Sql.docx",
+        "address":"maharashtra",
+        "state":"Rajasthan",
+        "city":"Jaipur"}
+]
