@@ -29,9 +29,9 @@ test.only("make_my_trip", async ({page}) => {
 })
 
 //4
-test.only("icc cricket rankings", async ({page}) => {
-await page.goto("https://www.icc-cricket.com/rankings")
+// test.only("icc cricket rankings", async ({page}) => {
+// await page.goto("https://www.icc-cricket.com/rankings")
 
-let name = "Steve"
+// let name = "Steve"
 
-let ratings=await page.textContent('//span[text()="${nmae}"]/ancestor::td[@class="]
+// let ratings=await page.textContent('//span[text()="${nmae}"]/ancestor::td[@class="]
