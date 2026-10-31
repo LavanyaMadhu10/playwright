@@ -25,11 +25,12 @@ test("auto_retrying_assertion",async({page})=>{
     
 });
 
-test.only ("non retrying assertion",async({page})=>{
 
-    await page .goto("https://demoapps.qspiders.com/ui?scenario=1");
+    test.only("non retrying assertion", async ({ page }) => {
 
-    let text = await page.locator('//h1[text()="Register"]').textContent();
+    await page.goto("https://demoapps.qspiders.com/ui?scenario=1");
+
+    let text = await page.locator("h1").textContent();
 
     await expect(text).toContain("Register");
 
@@ -38,19 +39,21 @@ test.only ("non retrying assertion",async({page})=>{
 
     //await page.mouse.click(200,200);
 
-    await expect(title).not.toContain("DemoApps | Qspiders");
+    await expect(title).toContain("DemoApps | Qspiders");
 
     await expect.soft(url).toMatch(/scenario=1/);
 
-    // let status ="hii"
+    // let status = "hii"
     // await expect(status).toBeTruthy();
 
     // let name = "Lavanya";
-    // await expect (name).toBeUndefined();
+    // await expect(name).toBeUndefined();
 
-    // await expect("hii").toBeTruthy()
+    // await expect("hii").toBeTruthy();
 
-})
+});
+
+
 
 
 
